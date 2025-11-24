@@ -83,4 +83,3 @@ myChain.addBlock(new Block(2, Date.now(), { from: "Ayşe", to: "Mehmet", amount:
 
 console.log("\nBlockchain:", JSON.stringify(myChain, null, 2));
 console.log("\nChain geçerli mi?", myChain.isChainValid());
-
